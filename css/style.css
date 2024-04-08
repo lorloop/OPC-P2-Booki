@@ -38,6 +38,10 @@ a {
     font-size: 22px;
 }
 
+.default-margin-bottom {
+    margin-bottom: 35px;
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -106,6 +110,43 @@ nav a:hover {
 
 main {
     padding: 0 50px;
+}
+
+/****** Headline ***********/
+
+.headline h1 {
+    margin-bottom: 8px;
+}
+
+.headline p {
+    margin: 0;
+}
+
+/****** Filtres ***********/
+
+.filtres {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filtres-title {
+    font-size: 18px;
+}
+
+.filtres-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 19px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.filtres-card:hover {
+    background: #DEEBFF;
 }
 
 /****** Infobar ***********/
