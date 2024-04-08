@@ -108,6 +108,29 @@ main {
     padding: 0 50px;
 }
 
+/****** Infobar ***********/
+
+.infobar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-bulle {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 50px;
+}
+
+.info-bulle i {
+    font-size: 12px;
+    color: var(--main-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
